@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_144" class="java.beans.XMLDecoder">
+ <array class="java.lang.Object" length="5">
+  <void index="0">
+   <object class="fr.eni.parking.bo.Formateur">
+    <void property="id">
+     <int>88</int>
+    </void>
+    <void property="nom">
+     <string>aze</string>
+    </void>
+    <void property="prenom">
+     <string>eza</string>
+    </void>
+   </object>
+  </void>
+  <void index="1">
+   <object class="fr.eni.parking.bo.Formateur">
+    <void property="id">
+     <int>89</int>
+    </void>
+    <void property="nom">
+     <string>aze</string>
+    </void>
+    <void property="prenom">
+     <string>eza</string>
+    </void>
+   </object>
+  </void>
+  <void index="2">
+   <object class="fr.eni.parking.bo.Formateur">
+    <void property="id">
+     <int>90</int>
+    </void>
+    <void property="nom">
+     <string>aze</string>
+    </void>
+    <void property="prenom">
+     <string>eza</string>
+    </void>
+   </object>
+  </void>
+  <void index="3">
+   <object class="fr.eni.parking.bo.Formateur">
+    <void property="id">
+     <int>91</int>
+    </void>
+    <void property="nom">
+     <string>aze</string>
+    </void>
+    <void property="prenom">
+     <string>eza</string>
+    </void>
+   </object>
+  </void>
+  <void index="4">
+   <object class="fr.eni.parking.bo.Formateur">
+    <void property="id">
+     <int>92</int>
+    </void>
+    <void property="nom">
+     <string>aze</string>
+    </void>
+    <void property="prenom">
+     <string>eza</string>
+    </void>
+   </object>
+  </void>
+ </array>
+</java>

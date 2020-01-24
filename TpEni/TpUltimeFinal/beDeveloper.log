@@ -1,0 +1,4 @@
+janv. 23, 2020 4:40:27 PM fr.eni.parking.dao.Implementation.RepositoryFormateur getById
+GRAVE: Erreur dans getById(int id) : Aucun enregistrement a été trouvé avec l'id = 95
+janv. 23, 2020 4:40:27 PM fr.eni.parking.dao.Implementation.RepositoryFormateur getById
+GRAVE: Erreur dans getById(int id) : Couche Dao -- Aucun enregistrement trouvé id = 95

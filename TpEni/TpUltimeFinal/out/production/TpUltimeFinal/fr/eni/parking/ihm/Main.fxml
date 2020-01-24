@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="434.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.eni.parking.bll.Controller.MainController">
+   <children>
+      <TableView id="TvFormateurs" fx:id="TvFormateurs" layoutX="374.0" layoutY="28.0" onMouseClicked="#OnClickSelectedItemFormateur" prefHeight="200.0" prefWidth="200.0">
+        <columns>
+          <TableColumn fx:id="TcNomFormateur" prefWidth="103.0" text="Nom" />
+          <TableColumn fx:id="TcPrenomFormateur" prefWidth="96.0" text="Prénom" />
+        </columns>
+      </TableView>
+      <Button id="BtAjouterVoiture" fx:id="BtAjouterVoiture" layoutX="57.0" layoutY="340.0" mnemonicParsing="false" onAction="#OnClickAjouterVoiture" text="Ajouter" />
+      <Button id="BtModifierVoiture" fx:id="BtModifierVoiture" layoutX="140.0" layoutY="340.0" mnemonicParsing="false" onAction="#OnClickModifierVoiture" text="Modifier" />
+      <Button id="BtSupprimeVoiture" fx:id="BtSupprimerVoiture" layoutX="219.0" layoutY="340.0" mnemonicParsing="false" onAction="#OnClickSupprimerVoiture" text="Supprimer" />
+      <Button id="btAjouterFormateur" fx:id="btAjouterFormateur" layoutX="385.0" layoutY="340.0" mnemonicParsing="false" onAction="#OnClickAjouterFormateur" text="Ajouter" />
+      <Button id="BtModifierFormateur" fx:id="BModifierFormateur" layoutX="455.0" layoutY="340.0" mnemonicParsing="false" onAction="#OnClickModifierFormateur" text="Modifier" />
+      <Button id="BtSupprimerFormateur" fx:id="BtSupprimerFormateur" layoutX="520.0" layoutY="340.0" mnemonicParsing="false" onAction="#OnActionSupprimerFormateur" text="Supprimer" />
+      <Button id="BtExportXml" fx:id="BtExportXml" layoutX="57.0" layoutY="385.0" mnemonicParsing="false" onAction="#OnActionExportXml" prefHeight="25.0" prefWidth="251.0" text="Exporter les données au format XML" />
+      <Button id="BtExportExcel" fx:id="BtExportCsv" layoutX="330.0" layoutY="385.0" mnemonicParsing="false" onAction="#OnActionExportCsv" prefHeight="25.0" prefWidth="251.0" text="Exporter les données au format Excel" />
+      <Label id="lbNomVoiture" layoutX="29.0" layoutY="243.0" text="Nom : " />
+      <Label id="LbPiVoiture" layoutX="29.0" layoutY="277.0" text="PI : " />
+      <Label id="lbNomFormateur" layoutX="383.0" layoutY="243.0" text="Nom : " />
+      <Label id="LbPrenomFormateur" layoutX="383.0" layoutY="277.0" text="Prenom : " />
+      <TextField id="TfNomVoiture" fx:id="TfNomVoiture" layoutX="83.0" layoutY="239.0" prefHeight="25.0" prefWidth="164.0" />
+      <TextField id="TfPiVoiture" fx:id="TfPiVoiture" layoutX="83.0" layoutY="273.0" prefHeight="25.0" prefWidth="164.0" />
+      <TextField id="TfNomFormateur" fx:id="TfNomFormateur" layoutX="446.0" layoutY="239.0" />
+      <TextField id="TfPrenomFormateur" fx:id="TfPrenomFormateur" layoutX="446.0" layoutY="273.0" />
+      <ComboBox id="CbFormateurVoiture" fx:id="CbNomFormateur" layoutX="82.0" layoutY="307.0" prefHeight="25.0" prefWidth="164.0" promptText="Nom de la personne" />
+      <TableView id="TvVoitures" fx:id="TvVoitures" layoutX="29.0" layoutY="28.0" onMouseClicked="#OnClickSelectedItemVoiture" prefHeight="200.0" prefWidth="333.0">
+        <columns>
+          <TableColumn fx:id="TcNomVoiture" text="Nom" />
+          <TableColumn fx:id="TcPiVoiture" prefWidth="96.0" text="Pi" />
+            <TableColumn fx:id="TcNomPrenomFormateurVoiture" prefWidth="156.0" text="Nom et Prénom" />
+        </columns>
+      </TableView>
+   </children>
+</Pane>
